@@ -44,8 +44,8 @@ function App() {
     formState: { errors },
   } = useForm({
     defaultValues: {
-      name: "John Doe",
-      dueDate: "04/10/2000",
+      name: "",
+      dueDate: "",
       priority: "Basse",
       isCompleted: false,
     },
